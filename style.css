@@ -1,6 +1,8 @@
+
+
+
 html,body{
     min-height: 100vh;
-    min-width: 100vh;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -12,12 +14,14 @@ header{
 }
 section{
     border-radius: 15px;
-    padding: 5px;
     text-align: center;
     margin: auto;
-    width: 500px;
+    width: 300px;
     height: 300px;
     background-color: white;
+}
+img{
+    width: 200px;
 }
 footer{
     color: white;
