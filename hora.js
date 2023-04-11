@@ -3,7 +3,6 @@ function carregar(){
     var img = document.getElementById("foto")
     var dia = new Date()
     var hora = dia.getHours()
-    var hora = 19
     var min = dia.getMinutes()
     msg.innerHTML = `Agora são ${hora}:${min}`
     if ( hora > 0 && hora <= 12){
