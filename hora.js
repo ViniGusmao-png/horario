@@ -2,7 +2,7 @@ function carregar(){
     var msg = document.getElementById("mensagem")
     var img = document.getElementById("foto")
     var dia = new Date()
-    //var hora = dia.getHours()
+    var hora = dia.getHours()
     var hora = 19
     var min = dia.getMinutes()
     msg.innerHTML = `Agora são ${hora}:${min}`
